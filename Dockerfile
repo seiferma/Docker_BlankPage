@@ -1,6 +1,6 @@
 FROM busybox
 
-WORKDIR /blank
+WORKDIR /www
 RUN touch index.html && \
     adduser -D -H -s /bin/false www
 USER www
